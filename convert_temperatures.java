@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class convert_temperatures {
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -15,17 +14,17 @@ public class convert_temperatures {
                        "Enter your choice:\r");
     input = scanner.nextInt();
      switch(input) {
-     case input == 3 :
+     case input = 3 :
      System.out.println("Exiting the program. Goodbye!");
      X = false ;
      break;
-     case input == 2 :
+     case input = 2 :
      System.out.println("Enter the temperature in Fahrenheit: ");
      Fahrenheit = scanner2.nextDouble();
      Celsius = ( Fahrenheit - 32 ) * 5/9;
      System.out.println(Fahrenheit+"°F is equal to "+Celsius+"°C");
      break;
-     case input == 3 :
+     case input = 3 :
      System.out.println("Enter the temperature in Celsius: ");
      Celsius = scanner2.nextDouble();
      Fahrenheit = (Celsius * 9)/5 + 32 ;
