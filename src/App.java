@@ -6,9 +6,16 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);    
         int choice;
+        System.out.println("\n\n");
+        System.out.println("___________              __      ____     ________  ");
+        System.out.println("\\__    ___/____    _____|  | __ /_   |    \\_____  \\ ");
+        System.out.println("  |    |  \\__  \\  /  ___/  |/ /  |   |      _(__  < ");
+        System.out.println("  |    |   / __ \\_\\___ \\|    <   |   |     /       \\");
+        System.out.println("  |____|  (____  /____  >__|_ \\  |___| /\\ /______  /");
+        System.out.println("               \\/     \\/     \\/        \\/        \\/ ");
 
         do{
-            System.out.println("\n\nTemperature Converter\n");
+            System.out.println("Temperature Converter\n");
             System.out.println("Choose conversion type:\n");
             System.out.println("1. Celsius to Fahrenheit");
             System.out.println("2. Fahrenheit to Celsius");
