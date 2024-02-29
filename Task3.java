@@ -45,6 +45,7 @@ public class Task3{
           scan.nextLine();
         }
       }
+            System.out.println("Goodbye!");
       
       
       
