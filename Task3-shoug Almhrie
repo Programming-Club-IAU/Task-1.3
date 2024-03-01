@@ -1,0 +1,42 @@
+@author SHOUG
+ 
+public class NewClass {
+   
+
+
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+     int ch=0;
+    double num;
+    double ruslt;
+        do{
+            System.out.print("Menu: \n 1. Convert from C TO F. \n 2.Convert from F TO C. \n 3.Exit. \n Enter your choice:  ");
+            ch=scanner.nextInt();
+            switch (ch){
+                case 1:
+                     System.out.print("Enter the num: ");
+                     num=scanner.nextInt();
+                     ruslt=( (num*9)/5)+32;;
+                     System.out.println("The temperature in fahrenheit is: "+ruslt);
+                    break;
+                    case 2:
+                         System.out.println("Enter the num: ");
+                     num=scanner.nextInt();
+                     ruslt= ((num-32)*5)/9;
+                     System.out.println("The temperature in celsius is: "+ruslt);
+                    break;
+                    case 3:
+                        System.out.println("The program end");
+                    break;
+                    default :
+                        System.out.println(" your choice is an invaild number!."); 
+                        
+            }
+            
+            }while(ch!=3);
+        
+    }
+}
+
+
