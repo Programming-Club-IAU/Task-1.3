@@ -6,8 +6,7 @@ public class Task3{
       char Convert;
       double Num;
       double temperature;
-
-  
+      System.out.println("Welcome to the temperature converter");
       
       while (true){
         try{
@@ -23,20 +22,22 @@ public class Task3{
        }
         
       
-      
        System.out.println("Convertion From Fahrenheit to Celsius (C) or Celsius Fahrenheit (F) ? ");
         Convert = scan.next().charAt(0);
         
-        if (Convert == 'C') {
+        if (Convert == 'C' || Convert == 'c') {
        
         temperature = (Num - 32) * 5/9 ;
         System.out.println(temperature+"C");
         }
 
-        else if (Convert== 'F'){
+        else if (Convert== 'F' || Convert=='f'){
             temperature= (Num * 9/5)+32;
             System.out.println(temperature+"F");
 
+        }
+              else {
+          System.out.println("Enter valid input please ! ");
         }
         }
       
