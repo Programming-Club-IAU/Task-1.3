@@ -22,7 +22,7 @@ public class Task3{
        }
         
       
-       System.out.println("Convertion From Fahrenheit to Celsius (C) or Celsius Fahrenheit (F) ? ");
+       System.out.println("Convertion From Fahrenheit to Celsius (C) or Celsius to Fahrenheit (F) ? ");
         Convert = scan.next().charAt(0);
         
         if (Convert == 'C' || Convert == 'c') {
