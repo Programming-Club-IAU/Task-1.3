@@ -8,7 +8,7 @@ public class task3 {
        float newTemperature ;
 
         while (true) {
-            System.out.print("\nEnter\n\"1\" to convert from Fahrenheit to Celsius \n\"2\" to convert from Celsius to Fahrenheit\n\"3\" to exit or quit\n --> ");
+            System.out.print("\nEnter\n-1- to Convert from Fahrenheit to Celsius \n-2- to Convert from Celsius to Fahrenheit\n-3- to Exit or Quit\n --> ");
             input = scanner.nextInt();
             
 
@@ -30,7 +30,7 @@ public class task3 {
 
 
             else if (input == 3) {
-                System.out.println("Hope you had great time\nGoodbye!");
+                System.out.println("Hope you had great time\nGoodbye!\n");
                 break;
             }
 
