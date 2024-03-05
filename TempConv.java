@@ -22,6 +22,7 @@ public class TempConv {
                 System.out.println("\nPlease select an option:");
                 System.out.println("1 - Convert Celsius to Fahrenheit");
                 System.out.println("2 - Convert Fahrenheit to Celsius");
+                System.out.println("3 - Exit");
                 Scanner input = new Scanner(System.in);
                 int choice = input.nextInt();
                 switch(choice){
@@ -32,6 +33,14 @@ public class TempConv {
                     case 2:
                         System.out.println("Enter temp in f");
                         System.out.println("Result : " + ((input.nextDouble() - 32) * 5 / 9));
+                        break;
+                    case 3:
+                        System.out.print("Bye Bye !");
+                        System.exit(0);
+                        break;
+                    default:
+                        System.out.println("Wrong Choice");
+                        break;
                 }
                 System.err.println("Done !");
             }
