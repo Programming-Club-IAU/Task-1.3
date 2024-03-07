@@ -8,7 +8,8 @@ public class App {
 
         while (true) {
           
-            System.out.println("\nTemperature Conversion Program");
+            System.out.println("\nTemperature Conversion Program ");
+            System.out.println("Enter your choice:");
             System.out.println("1. Celsius to Fahrenheit");
             System.out.println("2. Fahrenheit to Celsius");
             System.out.println("0. Exit");
@@ -25,7 +26,7 @@ public class App {
 
             
             if (choice == 0) {
-                System.out.println("Exiting program...");
+                System.out.println("Exiting program");
                 break;
             }
             double temperature;
